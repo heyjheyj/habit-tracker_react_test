@@ -16,6 +16,8 @@ const Navbar = ({totalCount}) => {
 export default Navbar;
 
 
+// Component 방식
+
 // class Navbar extends PureComponent {
 //     render() {
 //         return (
