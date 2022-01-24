@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+button {
+  outline: none;
+  border: 0;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(238, 209, 183);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.fa-pagelines {
+  font-size: 2.5rem;
+  color:darkslategrey;
+}
+
+.title {
+  padding-left: 10px;
+  font-size: 2rem;
+}
+
+.inputField {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.inputText {
+  width: 300px;
+  font-size: 1.5rem;
+}
+
+.inputButton {
+  margin-left : 10px;
+  background-color: rgb(30, 117, 74);
   color: white;
+  width: 50px;
+  font-size: 1.2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.habit {
+  font-size: 2.5rem;
+  padding: 0.5em;
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.habit-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-left: 0.2em;
+  margin-right: 0.5em;
+  background-color: darkseagreen;
+  color: white;
+  border-radius: 50%;
+}
+
+.habit-button {
+  font-size: 2.5rem;
+  margin: 0 0.1em;
+  background-color: transparent;
+}
+
+.habit-button:hover {
+  opacity: 0.8;
+}
+
+.habit-increase,
+.habit-decrease {
+  color: goldenrod;
+}
+
+.habit-delete {
+  font-size: 2rem;
+  color: darkred;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+}
+
+.resetButton {
+  color: white;
+  background-color: darkslategrey;
+  width: 100px;
+  font-size: 1.2rem;
 }
