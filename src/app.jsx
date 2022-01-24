@@ -52,7 +52,6 @@ const App = () => {
       )
   }
 
-
     return (<>
         <Navbar totalCount={habits.filter(item => item.count > 0).length} />
             <Habits habits={habits}
@@ -66,8 +65,6 @@ const App = () => {
     };
 
 export default App;
-
-
 
 
 // Component 방식
