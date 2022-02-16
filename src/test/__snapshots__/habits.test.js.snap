@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`habits component renders 1`] = `
+Array [
+  <div>
+    <form
+      className="inputField"
+      onSubmit={[Function]}
+    >
+      <input
+        className="inputText"
+        placeholder="취미를 입력해주세요"
+        type="text"
+      />
+      <button
+        className="inputButton"
+      >
+        등록
+      </button>
+    </form>
+  </div>,
+  <ul>
+    <li
+      className="habit"
+    >
+      <span
+        className="habit-name"
+      >
+        Reading
+      </span>
+      <span
+        className="habit-count"
+      >
+        4
+      </span>
+      <button
+        className="habit-button habit-increase"
+        onClick={[Function]}
+        title="increase"
+      >
+        <i
+          className="fas fa-plus-square"
+        />
+      </button>
+      <button
+        className="habit-button habit-decrease"
+        onClick={[Function]}
+        title="decrease"
+      >
+        <i
+          className="fas fa-minus-square"
+        />
+      </button>
+      <button
+        className="habit-button habit-delete"
+        onClick={[Function]}
+        title="delete"
+      >
+        <i
+          className="fas fa-trash"
+        />
+      </button>
+    </li>
+    <li
+      className="habit"
+    >
+      <span
+        className="habit-name"
+      >
+        Eating
+      </span>
+      <span
+        className="habit-count"
+      >
+        5
+      </span>
+      <button
+        className="habit-button habit-increase"
+        onClick={[Function]}
+        title="increase"
+      >
+        <i
+          className="fas fa-plus-square"
+        />
+      </button>
+      <button
+        className="habit-button habit-decrease"
+        onClick={[Function]}
+        title="decrease"
+      >
+        <i
+          className="fas fa-minus-square"
+        />
+      </button>
+      <button
+        className="habit-button habit-delete"
+        onClick={[Function]}
+        title="delete"
+      >
+        <i
+          className="fas fa-trash"
+        />
+      </button>
+    </li>
+  </ul>,
+  <section
+    className="reset"
+  >
+    <button
+      className="resetButton"
+      onClick={[MockFunction]}
+    >
+      Reset All
+    </button>
+  </section>,
+]
+`;

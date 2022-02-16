@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders 1`] = `
+<section
+  className="Navbar"
+>
+  <i
+    className="fab fa-pagelines"
+  />
+  <span
+    className="title"
+  >
+    Habit Tracker
+  </span>
+  <span
+    className="habit-count"
+  >
+    4
+  </span>
+</section>
+`;
